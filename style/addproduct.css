@@ -1,0 +1,80 @@
+body{
+    background-color:white;
+   
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    margin-top:70px;
+    background-image: url(../img/contact_form2.jpg); 
+    padding: 50px;
+    height: 700px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:400px;
+}
+
+.form-group {
+    padding:15px;
+}
+.col-sm-10 {
+    padding:15px;
+}
+.form-control {
+    border:solid;
+    border-radius: 30px;
+    opacity: 80%;
+    border-color: rgb(131, 5, 15);
+    color:#410f1e;
+}
+.row {
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom: 0px;
+}
+#buttonProduct {
+    color:white;
+    background-color: #801d3b;
+    border-radius: 5px;
+    float:right;
+}
+#buttonProduct:hover{
+    background-color: white;
+    color:#801d3b;
+}
+.control-label{
+    color: #801d3b;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: cursive;
+}
+.contact-info{
+    font-family: cursive;
+    color:black;
+    text-shadow: 2px 4px 8px #801d3b;
+    font-size:25px;
+   
+}
+#redirectProductId{
+    font-size:40px;
+    font-family: cursive;
+    margin-left:450px;
+    color:#801d3b;
+}
+

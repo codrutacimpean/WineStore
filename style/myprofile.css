@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+}
+.col-lg-6 {
+    background-image:url(../img/myprofile2.jpg);
+    height: 600px;
+	width: 450px;
+	padding: 80px;
+}
+#changePasswordId, #changeNameId {
+    width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 4px solid #810c4d;
+	color:white;
+	font-family: cursive;
+	font-size: 16px;
+	font-weight: 400;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top:20px;
+}
+.buttonProfile {
+    background-color:#770a46;
+    color:white;
+}
+.col-lg-6 input[type=button]:hover{
+    color:rgb(32, 9, 23);
+	opacity: 0.8;
+}
+label {
+    font-weight: 5px solid ;
+    color:#770a46;
+    font-size: 70px;
+}
+.col-lg-12 {
+    text-align: center;
+    font-family: cursive;
+    color:#770a46;
+}
+#profileTitle {
+    text-align: center;
+	margin-right: 200px;;
+	font-weight: bold;
+	font-family: cursive;
+	font-size:50px;
+	color:#801d3b;
+    text-shadow: 2px 2px 4px white
+}
+#removeButton {
+    margin-top:150px;
+}
+.changeInput{
+    color:white;
+    text-shadow: 2px 2px 4px #801d3b;
+	font-family: cursive;
+}
+.inputProfile {
+    padding:45px;
+}

@@ -1,0 +1,80 @@
+body{
+    margin:auto;
+}
+.card{
+    background-color: white;
+   
+}
+.responsive col-4{
+    border:solid;
+    border-color: #770a46;
+}
+.buy {
+    margin-left:20px;
+}
+.clearfix{
+    overflow: auto;
+    width: 215px;
+    height:170px;
+    border-radius: 8px;
+}
+#titleCart{
+    text-align: center;
+    text-shadow: 2px 2px 5px #810c4d;
+}
+#voucherId{
+margin-left:100px;
+}
+.imgIcon{
+    float:right;  
+}
+.textIcon{
+    text-align: right;
+    text-decoration: underline;
+    font-family: cursive;
+    color:#770a46;
+}
+.sumId{
+    background-color:#770a46;
+    width: 410px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border: 10px;
+}
+#tvaId{
+    width:70px;
+}
+.cifre{
+    font-family: cursive;
+    color:#770a46;
+    font-weight: bold;
+    font-size:25px;
+}
+#buttonBuy{
+    background-color:#770a46;
+    color:white;
+    border-radius: 20px;
+}
+#buttonBuy:hover{
+    background-color:gray;
+}
+#promo{
+    width:600px;
+     transition: transform .9s;
+     font-family: cursive;
+     text-align: center;
+     margin-left: 300px;
+}
+#promo:hover {
+  transform: scale(1.5);
+  color:#770a46;
+}
+#buttonCard{
+    color:white;
+    background-color:#770a46;
+    border-radius: 20px;
+}
+#buttonCard:hover{
+    background-color:white;
+    color:#770a46;
+}

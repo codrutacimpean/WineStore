@@ -1,0 +1,108 @@
+body{
+  margin:0px;
+}
+.container{
+    padding:80px;
+}
+
+.card-body{
+    background-color:white; 
+}
+#productTitleId{
+    color:black;
+    text-shadow: 2px 2px 5px #810c4d;
+    text-align: center;
+    font-family: cursive;
+    margin-left: 20px;
+}
+#link {
+    border:solid;
+    border-color:#770a46;
+    background-color: #770a46;
+    color:white;
+    margin-left:30px;
+}
+.container .row {
+    display: flex;
+    align-items: center; 
+    padding: 10px; 
+}
+
+.title{
+    text-align: center;
+}
+.clearfix{
+    overflow: auto;
+    width: 215px;
+    height:170px;
+    border-radius: 8px;
+    transition: transform .9s;
+}
+.clearfix:hover {
+        transform: scale(1.5);
+}
+.imgIcon{
+    margin-left:150px;
+}
+.textIcon {
+    text-align: center;
+    font-family: cursive;
+}
+#crama {
+    float:right;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+#comanda{
+    text-align: center;
+    color:#770a46;
+    font-family: cursive;
+    font-size: 30px;
+}
+a:hover{
+    color:black;
+}
+#subtitle {
+    font-family: cursive;
+    color:#770a46;
+    text-align: center;
+}
+ #buttonCardId{
+    color:white;
+    font-family: cursive;
+    background-color:#770a46;
+    border-radius: 20px;
+}
+ #buttonCardId:hover {
+    background-color:white;
+    color:#770a46;
+    border-radius:20px;
+}
+#buttonAddCard {
+    color:white;
+    font-family: cursive;
+    background-color:#770a46;
+    border-radius: 20px;
+} 
+#buttonAddCard:hover{
+    background-color:white;
+    color:#770a46;
+    border-radius:20px;
+}
+#buttonAddCard2 {
+    color:white;
+    font-family: cursive;
+    background-color:#770a46;
+    border-radius: 20px;
+}
+#buttonAddCard2:hover{
+    background-color:white;
+    color:#770a46;
+    border-radius:20px;
+}
+#avantajeId{
+    margin-bottom:0px;
+}
+
+
+

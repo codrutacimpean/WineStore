@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="https://kit.fontawesome.com/1969c0f2e0.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "../style/home.css">
+    <link rel = "stylesheet" href = "../style/style.css">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title>Acasa</title>
+</head>
+
+    <!-- Navbar -->
+
+<body onload = "isAuthenticated(), setCurrentDate(),alertAge()">
+    <div id = "authenticatedUser">
+        <nav class="navbar">
+            <ul>
+                <img style = "float:left" src="../img/Logo 3.png" alt = "logoimg" width = "170px" height = "80px">
+                <li><a href = "login.html" onclick="logOut()"><i class="fas fa-sign-out-alt"></i>Deconectează-te</a></li>
+                <li><a href="products.html"><i class="fas fa-wine-bottle"></i>Produse</a></li>
+                <li><a href = "myprofile.html"><i class="fas fa-user-cog"></i>Profilul meu</a></li>
+                <li><a href ="contactpage.html"><i class="fas fa-envelope"></i>Contactează-ne</a></li>
+                <li style = "float:left"><a href="home.html"><i class="fas fa-home"></i>Acasă</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id = "notAuthenticatedUser" style = "display:none">
+        <nav class = "navbar">
+            <ul>
+                <img style = "float:left" src="../img/Logo 3.png" alt = "logoimg" width = "170px" height = "80px">
+                <li style = "float:left"><a href="home.html"><i class="fas fa-home"></i>Acasă</a></li>
+                <li><a href = "register.html"><i class="fas fa-user-plus"></i>Autentificare</a></li>
+                <li><a href = "login.html"><i class="fas fa-sign-in-alt"></i>Contul meu</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Title -->
+
+    <h3>
+        <quotes id = "title">"A face un vin bun este o deprindere. A face un vin de calitate este o arta"
+            <cite>(Robert Mondavi)</cite>
+        </quotes>
+    </h3>
+
+    <!-- Container -->
+
+    <div class = "container1">
+        <div class = "row">
+            <div class = "col-lg-8">
+                <div class = "jumbotron">
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-2">
+                        <img class = "medalieImg" src = "../img/medalie.jpg" alt = "imgmedalie" width = "100px" height = "100px">
+                    </div>
+                    <div class = "col-lg-10">
+                        <h2 class = "medalieTitle">International Wine Competition 2019 Locul I</h2>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-lg-4-png">
+                <div class = "homeText">
+                    <h2 class = "titlehomeText">De ce ciocnim paharele cu vin?</h2>
+                    <p class = "descriptionText"><i class = "fas fa-wine-glass"></i>Sunetul face parte din ritualul de a bea.</p>
+                    <p><i class = "fas fa-wine-glass"></i>Vinul este ceva minunat, spiritual, care trebuie experimentat cu toate simțurile.</p>
+                    <p><i class = "fas fa-wine-glass"></i>Aromele încântă simțul olfactiv,</p>
+                    <p><i class = "fas fa-wine-glass"></i>Culoarea pe cel vizual,</p>
+                    <p><i class = "fas fa-wine-glass"></i>Notele gustative, textura și corpolența vinului se adresează simțului gustativ,</p>
+                    <p><i class = "fas fa-wine-glass"></i>Paharul în care se află vinul îl simți cu ajutorul simțului tactil,</p>
+                    <p><i class = "fas fa-wine-glass"></i>Sunetul produs de ciocnitul cupelor sau a paharelor îl experimentezi cu simțul auditiv.</p>
+                </div>
+                <h2 class = "titlehomeText">De ce consumam vin?</h2>
+                <img src = "../img/statistica.png" alt = "statisticimg" width = "500px" height = "150px">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-4">
+                <h2 class = "font-weight-bold">Vinul Alb</h2>
+                <p class = "descriptionImg">Captează atenție prin prospetime, fructuozitate și o aciditate bună,fiind
+                corpolent si având o culoare intensificată.</p>
+                <img class = "img" src ="../img/vinalbhome.jpg" alt = "vinalbimg" width = "200px" height = "150px">
+            </div>
+            <div class = "col-lg-4">
+                <h2 class = "font-weight-bold">Vinul Rosu</h2>
+                <p class = "descriptionImg">Te seduce de la primul pahar!Este yin si yang, un echilibru perfect intre eleganta si util. </p>
+                <img class = "img" src = "../img/vinrosuhome.jpg" alt = "vinrosuimg" width = "200px" height = "150px">
+            </div>
+            <div class = "col-lg-4">
+                <h2 class = "font-weight-bold">Vinul Roze</h2>
+                <p class = "descriptionImg">Răcoritor, expresiv și echilibrat, cu o aciditate moderată, conferindu-i opersonalitate aparte</p>
+                <img class = "img" src = "../img/vinrozehome.jpg" alt = "vinrozeimg" width = "200px" height = "150px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscribe -->
+    <h4><strong><i class="far fa-newspaper" style="color:#770a46; font-size:30px;"></i>Newsletter:</strong></h4>
+    <div class = "subscribe">
+        <label for = "subscribeEmailid">Email</label>
+        <input id = "subscribeEmailid" type = "text" name = "subscribeEmail">
+        <button onclick = "subscribeEmail()" id = "subscribebutton">Abonează-te!</button>
+    </div>
+
+    <!-- Script -->
+
+   
+</body>
+
+    <!-- Footer -->
+
+<footer onload = "cookieConsent()" class = "footer" id = "navbar1"
+    class = "navbar navbar-inverse navbar-fixed-bottom navbar-no-bg" role = "navigation">
+    <small>Copyright©2020 Crama La'Vie. Toate drepturile rezervate.Consumați responsabil. Info consumator 0262.320.023.
+        Fax:0262.320032. Email: cramalavie@yahoo.com</small>
+    <div id = "cookieConsent">
+        Aceasta pagină web folosește module cookie. Continuând să navigați în această pagină web, sunteți de acord cu
+        politica noastră privind modulele cookie.<a class="cookieConsentOK" onclick = "cookieAccepted()">De acord</a>
+    </div>
+    <div>
+        <p id = "currentDateId" id = "txt"></p>
+    </div>
+</footer>
+
+</html>

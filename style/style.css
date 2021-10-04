@@ -1,0 +1,49 @@
+.errorMessage {
+    color: red;
+    text-align: center;
+    font-size:large;
+}
+.successMessage {
+    color: green;
+}
+footer {
+    width: 100%;
+    background-color: #770a46 ;
+    color:white;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .fas {
+    margin-right: 5px;
+  }
+  
+  h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #770a46 ;
+}
+    
+  li {
+    float: right;
+    margin-top: 20px;
+}
+    
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+    
+  li a:hover:not(.active) {
+      color: black;
+  }
+  
